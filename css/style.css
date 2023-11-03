@@ -31,16 +31,18 @@ main{
 }
 
 .header-main-container{
+    position: absolute;
+    right: 4px;
+    top: 4px
+}
+.header-main-container div{
     color: white;
     background-color: gray;
     display: inline-block;
     font-size: small;
-    padding: 2px;
+    padding: 4px;
     font-weight: bold;
     border-radius: 5px;
-    position: absolute;
-    right: 4px;
-    top: 4px
 }
 
 .header-main-container > div{
@@ -78,14 +80,34 @@ footer{
     color: white;
 }
 
+footer *{
+    font-weight: normal;
+}
 .box-user img{
     width: 100%;
     object-fit: fill;
 }
 
 .footer-container{
-    padding: 10px;
     justify-content: space-between;
     align-items: center;
 }
 
+.box-mic-video{
+    text-align: center;
+    margin-right: 8px;
+}
+
+.section-footer-3{
+    background-color: grey;
+    height: 60px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.option-section2{
+    align-items: center;
+}
