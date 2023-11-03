@@ -26,16 +26,30 @@
 main{
     height: calc(100vh - 60px);
     background-color: black;
+    overflow: auto;
 }
 .main-container{
     padding: 40px;
+    justify-content: center;
 }
 
 .box-user{
     width: 300px;
     height: 200px;
-    background-color: brown;
-    border: 2px dashed white;
+    position: relative;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.name-user{
+    color: white;
+    background-color: rgba(115, 114, 114, 0.6);
+    display: inline-block;
+    padding: 2px;
+    font-size: small;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
 }
 
 /* -----------------FOOTER RULE----------------- */
@@ -45,24 +59,14 @@ footer{
     color: white;
 }
 
+.box-user img{
+    width: 100%;
+    object-fit: fill;
+}
+
 .footer-container{
     padding: 10px;
     justify-content: space-between;
     align-items: center;
 }
 
-/*
-.section-footer-1, .section-footer-3{
-    width: 20%;
-}
-
-.section-footer-2{
-    width: 80%;
-}
-*/
-
-/* -----------------DEBUG----------------- */
-.debug .container {
-    background-color: beige;
-    border: 1px dashed red;
-}
