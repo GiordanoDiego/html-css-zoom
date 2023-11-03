@@ -27,7 +27,26 @@ main{
     height: calc(100vh - 60px);
     background-color: black;
     overflow: auto;
+    position: relative;
 }
+
+.header-main-container{
+    color: white;
+    background-color: gray;
+    display: inline-block;
+    font-size: small;
+    padding: 2px;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    right: 4px;
+    top: 4px
+}
+
+.header-main-container > div{
+    display: inline-block;
+}
+
 .main-container{
     padding: 40px;
     justify-content: center;
