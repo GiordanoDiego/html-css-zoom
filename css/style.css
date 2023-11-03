@@ -13,13 +13,53 @@
     width: 100%;
 }
 
-/* -----------------HEADER RULE----------------- */
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-red{
+    color: red;
+}
 
 /* -----------------MAIN RULE----------------- */
+main{
+    height: calc(100vh - 60px);
+    background-color: black;
+}
+.main-container{
+    padding: 40px;
+}
+
+.box-user{
+    width: 300px;
+    height: 200px;
+    background-color: brown;
+    border: 2px dashed white;
+}
 
 /* -----------------FOOTER RULE----------------- */
+footer{
+    background-color: rgb(17, 16, 16);
+    height: 60px;
+    color: white;
+}
 
+.footer-container{
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
 
+/*
+.section-footer-1, .section-footer-3{
+    width: 20%;
+}
+
+.section-footer-2{
+    width: 80%;
+}
+*/
 
 /* -----------------DEBUG----------------- */
 .debug .container {
